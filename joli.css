@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0); /* Page background color with alpha channel for transparency */
+    opacity: 0.97;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%; /* Table width */
+    text-align: center;
+}
+
+td {
+    border: 1px solid rgba(255, 255, 255, 0); /* Table cell border with alpha channel for transparency */
+    padding: 10px; /* Cell padding */
+}
+
+img {
+    width: 240px; /* Image width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image within the cell */
+}
+
+#container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#videobcg {
+    position:absolute;
+    z-index:-1;
+    top:0;
+    left:0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
