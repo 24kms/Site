@@ -30,6 +30,14 @@ img {
     display: block;
     margin: 0 auto; /* Center the image within the cell */
 }
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 24px;
+  }
 
 #container {
     position: absolute;
