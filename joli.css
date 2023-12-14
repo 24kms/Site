@@ -44,6 +44,8 @@ img {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    z-index: -2; /* Ajoutez un z-index pour le rendre au même niveau que d'autres éléments */
+
 }
 
 #videobcg {
